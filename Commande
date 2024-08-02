@@ -6,3 +6,5 @@ npm install mysql2
 npm install sequelize
 npm install sequelize-cli
 npx sequelize-cli init
+
+npx sequelize-cli model:generate --name Role --attributes name:string
